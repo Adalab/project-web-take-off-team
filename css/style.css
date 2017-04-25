@@ -26,11 +26,11 @@ body{
 }
 
 .menu{
- display: flex;
- text-decoration: none;
- margin: 0;
- padding-left: 0;
- }
+  display: flex;
+  text-decoration: none;
+  margin: 0;
+  padding-left: 0;
+}
 
 .limenu {
   list-style: none;
@@ -45,7 +45,7 @@ body{
 }
 
 .plane{
-  margin-top: 0px;
+  margin-top: 50px;
   width: 100%;
 }
 
@@ -71,11 +71,11 @@ body{
 .linkproyect {
   text-decoration: none;
   color: #2fa4d6;
-  }
+}
 
 a:hover {
   color: #f3bd34
-  }
+}
 
 .blank{
   position: relative;
@@ -162,9 +162,9 @@ a:hover {
 }
 
 .aboutus{
-display: flex;
-flex-direction: column;
-width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .padding-bio{
@@ -183,13 +183,13 @@ width: 100%;
 .sara,
 .marta,
 .aida {
- display:flex;
- flex-direction: row;
+  display:flex;
+  flex-direction: row;
 }
 
 .carnet{
- margin-top: 3%;
- height:260px;
+  margin-top: 3%;
+  height:260px;
 }
 
 .title-bio{
@@ -202,6 +202,7 @@ width: 100%;
 .iconred{
   width: 40px;
 }
+
 footer{
   width: 100%;
   background-color: #f3bd34;
@@ -306,30 +307,31 @@ footer{
     margin-right: 8px;
   }
 }
+
 @media (min-width:1024px) {
   .nav{
     font-size: 1.4em;
   }
 
- .content{
+  .content{
     max-width: 800px;
     line-height: 25px;
   }
 
- .role {
-  flex-direction: row;
-}
-
- .indep {
-  width: 20%;
-}
-
- .membername{
-  font-size: 2.5em;
-  margin-left: 0;
+  .role {
+    flex-direction: row;
   }
 
- .iconfoot{
+  .indep {
+    width: 20%;
+  }
+
+  .membername{
+    font-size: 2.5em;
+    margin-left: 0;
+  }
+
+  .iconfoot{
     width: 50px;
     height: 50px;
     margin-right: 10px;
